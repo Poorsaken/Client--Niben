@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/festival.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Bago City</title>
+  </head>
+
+  <body>
+    <nav>
+        <div class="navigation">
+          <div class="nav-links">
+            <div class="about"><a href="about.html">About</a></div>
+            <div class="history"><a href="history.html">History</a></div>
+            <div class="festival"><a href="festival.html">Festival</a></div>
+            <div class="logo">
+              <img src="../images/SEAL.png" />
+            </div>
+            <div class="tourist"><a href="tourist.html">Toursit Spot</a></div>
+            <div class="food"><a href="food.html">Food</a></div>
+            <div class="church"><a href="church.html">Church</a></div>
+          </div>
+        </div>
+      </nav>
+
+    
+    <div class="bago-bg">
+
+
+        <div class="title">
+            <h>BAGO CITY FESTIVALS </h>
+        </div>
+    </div>
+
+
+
+    <div class="two-div">
+        <div class="festival-parent">
+            <img src="../images/confetti.png"/>
+        </div>
+        <div class="festival">
+            <div class="text">
+             <h> Explore the Wonderful Festivals of Bago City</h>
+             <p>Explore the Wonderful Festivals of Bago City</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="slideshow-parent">
+        <div class="left">
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+          
+        </div>
+        
+    <div class="w3-container">
+    </div>
+    
+    <div class="w3-content w3-display-container">
+    
+    <div class="w3-display-container mySlides">
+      <img src="../images/Babaylan_Festival_in_Bago_City.jpg" style="width:100%">
+      <div class="nameslide">
+       <h>Babaylan Festival</h>
+      </div>
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="../images/biray.jpg" style="width:100%">
+      <div class="nameslide">
+            <h>Biray sang mga Banka</h>
+      </div>
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="../images/kanyon.jpg" style="width:100%">
+      <div class="nameslide">
+        <h>Sigabong sang mga kanyon</h>  
+      </div>
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="../images/nov.jpg" style="width:100%">
+      <div class="nameslide">
+      <h>Cinco De Noviembre</h> 
+      </div>
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="../images/../images/133868_shutterstock_168289025.jpg" style="width:100%">
+      <div class="nameslide">
+        <h>  Musical fireworks Fesival</h>
+      </div>
+    </div>
+    
+ 
+    
+    </div>
+
+    <div class="left">
+        
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    </div>
+
+
+
+    <footer>
+        <div class="four-divs">
+          <div class="term">
+        
+            <div class="box1">
+              <h> Term of Use</h>
+            </div>
+        
+            <div class="box1">
+              <p><a href="disclaimer.html">DISCLAIMER</a></p>
+              <p><a href="#">PRIVACY POLICY</a></p>
+          
+            </div>
+        
+        
+          </div>
+        
+          <div class="term">
+        
+            <div class="box1">
+              <h> Links</h>
+            </div>
+        
+        
+            <div class="box1">
+              <p><a href="#">DILG</a></p>
+              <p><a href="#">OFFICE OF GAZETTE</a></p>
+              <p><a href="#">DOT</a></p>
+            </div>
+        
+        
+          </div>
+        
+          <div class="term">
+        
+            <div class="box1">
+              <h> Social Media</h>
+            </div>
+        
+            <div class="box1">
+              <p><a href="#">Facebook</a></p>
+              <p><a href="#">Instagram</a></p>
+              <p><a href="#">Twitter</a></p>
+            </div>
+        
+            
+          </div>
+        
+          <div class="term">
+        
+            <div class="box1">
+              <h> MEET THE TEAM</h>
+            </div>
+        
+            <div class="box1">
+              <p><a href="team.html">Niben Tadiaque</a></p>
+             
+            </div>
+        
+            
+          </div>
+        
+        
+        
+        
+          
+        
+        
+        
+          
+        </div>
+        </footer>
+    
+
+
+      
+
+
+
+
+
+
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+
+  </body>
+</html>

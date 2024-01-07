@@ -1,0 +1,22 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.nat-parent {
+
+margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,119 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.bago-bg {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bago-bg::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+    background-image: url('../images/Babaylan_Festival_in_Bago_City.jpg');
+    filter: blur(1px); /* Adjust the blur value as needed */
+    filter: brightness(80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bago-bg {
+
+
+display: grid;   
+}
+
+.title {
+
+
+    place-self: center;
+}
+
+.title h{
+
+    font-size: 90px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+
+
+.two-div{
+
+    display: flex;
+    height: 500px;
+    background-color: rgb(118, 173, 255);
+
+}
+
+.festival-parent {
+
+    width: 50%;
+   
+}
+
+.festival img{
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.festival h{
+
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.festival p{
+
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+
+
+.slideshow-parent{
+margin-top: 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+
+    margin: 5%;
+}
+
+.left button{
+
+
+    width: 100px;
+    height: 100px;
+    border-radius: 5rem;
+}
+
+.nameslide{
+
+    font-size: 25PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

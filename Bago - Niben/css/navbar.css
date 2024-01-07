@@ -1,0 +1,67 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.navigation {
+
+    display: flex;
+
+    height: 10vh;
+    width: 100%;
+  
+justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.nav-links{
+
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+ 
+
+.logo img{
+
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    
+}
+
+
+.about ,.history , .festival , .tourist ,.food ,.church{
+
+    margin: 5%;
+}
+
+
+
+.links {
+    padding: 0%;
+    margin: 5%;
+}
+
+.nav-links a {
+  
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+

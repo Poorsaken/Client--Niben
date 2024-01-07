@@ -1,0 +1,28 @@
+.three-div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    width: 400px;
+    height: 600px;
+    margin: 5%;
+    background-color: aqua;
+}
+
+.box img {
+    object-fit: cover;
+    width: 400px;
+    height: 600px;
+    aspect-ratio: 1;
+
+}
+
+.name {
+
+    font-size: 24px;
+   text-align: center;
+}

@@ -1,0 +1,90 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.bago-bg {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bago-bg::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+    background-image: url('../images/Saint_John_the_Baptist_Parish_Bago_City_side_view_\(Bonifacio\,_Bago_City\,_Negros_Occidental;_10-26-2022\).jpg');
+    filter: blur(1px); /* Adjust the blur value as needed */
+    filter: brightness(80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.bago-bg{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.two-container {
+
+    display: flex;
+
+}
+.left , .right {
+
+
+    width: 50%;
+    height: 50%;
+    margin: 2%;
+
+
+}
+
+.left h{
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.left p {
+
+
+    font-size: 25px;
+}
+
+
+.schedule-parent{
+
+    margin: 4%;
+}
+
+.schedule-parent h {
+
+
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
